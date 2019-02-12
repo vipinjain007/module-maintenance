@@ -1,0 +1,19 @@
+var resultDataMap = new Object();
+//adding some elements to the map 
+resultDataMap["CPR_CUST_IMPACT_GFAST_DPU_DOWN"]="<p>A service outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p>";
+resultDataMap["CPR_CUST_IMPACT_GFAST_DPU_DOWN"]="<p>A service outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p>";
+resultDataMap["CUST_IMPACT_UVERSE_MANUAL_MAINT_OUTAGE"]="<p>A U-verse TV outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible.AT&T can notify you when the outage has been resolved by using your preferred method of contact below.Select a method of contact.<p>";
+resultDataMap["CPR_CUST_IMPACT_ALL_Down"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_CARD_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_DSLAM_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_EXPANSION_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_OLT_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_PORT_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_ROUTER_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_SWITCH_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+resultDataMap["CPR_CUST_IMPACT_CABLE_DOWN"]="<p>An AT&amp;T outage has been identified in your area. We apologize for the inconvenience and are working to resolve this as soon as possible. #{ETROutageMessageBody}</p><p>AT&amp;T can notify you when the outage has been resolved by using the method of contact below.</p>";
+
+
+function get(k) {
+    return resultDataMap[k];
+}		
